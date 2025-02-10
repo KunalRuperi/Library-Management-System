@@ -1,0 +1,38 @@
+.rented-books-container {
+    background: linear-gradient(135deg, #f8f9fa, #e3e7eb);
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+  .view-btn {
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .view-btn:hover {
+    background: linear-gradient(45deg, #218838, #28a745);
+    transform: scale(1.05);
+  }
+  

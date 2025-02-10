@@ -1,0 +1,60 @@
+body{
+    background-color: #fdfdfde0;
+}
+.container{
+    background-color: rgb(255, 255, 253);
+}
+.card{
+    background-color: rgb(255, 254, 253);
+}
+.formclass{
+    background-color: rgb(246, 246, 246);
+}
+.text-shadow{
+    text-shadow: 2px 2px 4px rgb(56, 166, 203);
+}
+.card:hover {
+    transform: scale(1.05);
+    background: #f8f9fa;
+}
+.btn-outline-primary:hover {
+    background: #007bff;
+    color: white;
+}
+.form-container {
+    background: linear-gradient(135deg, #f8f9fa, #e3e7eb);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .input-custom {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .input-custom:focus {
+    border-color: #6610f2;
+    box-shadow: 0 0 10px rgba(102, 16, 242, 0.3);
+  }
+  
+  .submit-btn {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(45deg, #6610f2, #007bff);
+    transform: scale(1.05);
+  }
+  

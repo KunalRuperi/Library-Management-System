@@ -1,0 +1,63 @@
+/* Background Styling */
+.student-page {
+  background: linear-gradient(135deg, #f8f9fa, #e3e7eb);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form Container */
+.student-form-container {
+  background: white;
+  max-width: 600px;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.form-title {
+  font-weight: bold;
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Form Labels */
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input Fields */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Input Focus */
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button */
+.submit-btn {
+  background: linear-gradient(45deg, #28a745, #218838);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(45deg, #218838, #28a745);
+  transform: scale(1.05);
+}
